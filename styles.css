@@ -19,6 +19,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 body{
 	font-family: 'Balsamiq Sans', cursive;
 	height: 100%;
+	background: #1E1E1E;
 }
 
 .wrapper{
@@ -81,7 +82,7 @@ body{
 }
 
 .menu__icon{
-	/*display: flex;*/
+	display: flex;
 	padding: 0 5px 0 5px;
 }
 
@@ -431,6 +432,7 @@ body{
 @media screen and (max-width: 768px){
 	.resBtn{
 		display: flex;
+
 	}
 	.menu__list{
 		display: none;
@@ -466,6 +468,41 @@ body{
 		padding: 10px 15px 0px 15px;
 	}
 
+	.card__panel__{
+		height: 80vh;
+		width: 400px;
+		top: 40px;
+		left: -230px;
+	}
+
+	.card__panel_list_item span {
+		font-size: 20px;
+	}
+
+	.card__panel_list_item img {
+		width: 60px;
+		height: 60px;
+		padding-right: 0px;
+	}
+
+	.card__panel_end .by_ntn{
+		width: 100px;
+	}
+
+	.card__panel_list_item .negative_btn{
+		display: none;
+	}
+	
+	.card__panel_list_item .positive_btn{
+		display: none;
+	}
+	
+	.card__panel_list_item .price_inp{
+		font-size: 25px;
+		width: 70px;
+		height: 50px;
+		border: 1px solid black;
+	}
 }
 
 @media screen and (max-width: 425px){
@@ -488,6 +525,13 @@ body{
 		padding: 20px 15px 0px 0px;
 		float: left;
 	}
+
+	.card__panel__{
+		height: 80vh;
+		width: 400px;
+		top: 40px;
+		left: -310px;
+	}
 }
 
 @media screen and (max-width: 375px){
@@ -507,8 +551,20 @@ body{
 		padding: 10px 0px 0px 0px;
 		float: right;
 	}
+
+	.card__panel__{
+		height: 80vh;
+		width: 360px;
+		top: 40px;
+		left: -270px;
+	}
 }
 
 @media screen and (max-width: 320px){
-	
+	.card__panel__{
+		height: 80vh;
+		width: 310px;
+		top: 40px;
+		left: -220px;
+	}
 }
